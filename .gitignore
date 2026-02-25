@@ -1,25 +1,40 @@
 # Jupyter
 .ipynb_checkpoints/
-!*.ipynb         
-
+*.ipynb
 
 # Python
 __pycache__/
 *.py[co]
 
-# Conda
+# Conda/pip
 env/
 venv/
 .conda/
+pip-wheel-metadata/
 
-# Данные (исключаем большие)
+# Данные (большие файлы)
 data/*.csv
 data/*.xlsx
+data/*.parquet
+data/*.h5
+data/*.npy
 
 # IDE
 .vscode/
 .idea/
 
-# Системные
+# Системные файлы
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+*.tmp
+
+
+
+# Чувствительные данные
+.env
+secrets.json
+config.yaml
