@@ -1,0 +1,25 @@
+# Jupyter
+.ipynb_checkpoints/
+!*.ipynb         
+
+
+# Python
+__pycache__/
+*.py[co]
+
+# Conda
+env/
+venv/
+.conda/
+
+# Данные (исключаем большие)
+data/*.csv
+data/*.xlsx
+
+# IDE
+.vscode/
+.idea/
+
+# Системные
+.DS_Store
+Thumbs.db
